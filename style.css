@@ -1,0 +1,234 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{font-family: 'Noto Serif TC', serif;}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    background-color: #F9DA9F;
+    color: #161616;
+}
+header  {
+    background-position: 74% 153%;
+    height: 565px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(%E6%AF%9B%E6%AF%9B%E5%AE%B6%E6%97%8F-%E7%AD%86%E8%A2%8B.png);
+}
+header h1 {
+    color: #38E8FF;
+    text-align: center;
+    font-size: 48px;
+}
+nav {
+    text-align: center;
+    color: #FFFBFB;
+    font-size: x-large;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+nav a:link {
+    color: #FFF19A;
+    text-decoration: none;
+    font-size: medium;
+    height: 100vh;
+}
+nav a:visited {
+    color: #D2C2E0;
+    background-color: #8127FF;
+    background-size: cover;
+}
+
+article h3  {
+    color: #FFF5B3;
+    background-color: #FF85B3;
+    padding-left: 6pt;
+    text-align: center;
+    line-height: 45px;
+}
+.container .notion p {
+    text-align: left;
+	margin-left: 30px;
+}
+
+.heroimg {
+    height: 243px;
+    background-image: url(%E6%AF%9B%E6%AF%9B%E5%AE%B6%E6%97%8F-%E6%9D%AF%E5%A5%97.png);
+    background-size: cover;
+    background-position: 1% 80%;
+}
+article a:link  {
+    color: #4ABCBA;
+}
+article a:visited {
+    color: #00538F;
+}
+.title {
+}
+
+.box7:hover {
+    color: #F5A2E0;
+    background-color: #CF70D5;
+}
+.box8:hover {
+    color: #F5A2E0;
+    background-color: #FEA3C2;
+}
+.box6:hover {
+    color: #F5A2E0;
+    background-color: #F5A2E0;
+}
+.wow.bounceInRight .box2 {
+    background-color: #FD708F;
+}
+
+.box1 {
+    width: 100%;
+    background-color: #DF97EF;
+	line-height: 30px;
+	text-align: center;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    height: 100%;
+	margin-left:20px;
+}
+	
+.box1:hover {
+    transform: translateX(10px);
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+}
+.box4 {
+    width: 100%;
+    height: 100%;
+    background-color: #F3E89F;
+	text-align: center;
+    line-height: 115px;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box4:hover {
+	transform: rotate(5deg);
+	font-size: x-large;
+    text-align: center;
+    line-height: 115px;
+}
+
+.box5 {
+    width: 100%;
+    background-color: #776E4D;
+	transform: translateX(200px)
+    text-align: center;
+	line-height: 30px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    height: 100%;
+}
+	
+.box5:hover {
+    transform: translateX(4px);
+    font-size:20px;
+    text-align: center;
+    line-height: 40px;
+}
+article .box5 p {
+    color: #FCFCFC;
+}
+article .box5 a {
+    color: #FFFFFF;
+}
+.box1 p {
+    color: #FFFFFF;
+}
+
+
+
+
+.box6 {
+    background-color: #A57CB9;
+    flex: 1;
+    height: 100%;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+.box7 {
+	background-color: #F0D1D1;
+	flex: 2;
+	height: 100%;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	width: 50%;
+	color: #C151D0;
+}
+
+.box6 h7 {
+	margin-top: 25px;
+	color: #FFFFFF;}
+.box7 h7 {
+	margin-top: 25px;
+	margin-left:-30px;
+    color: #FFFFFF;
+	width: 20%;
+}
+.box8 h7 {
+	margin-top: 25px;
+	color: #C304CF;
+}
+
+
+
+
+.box7 p {
+    margin-top:25px;
+	margin-right: -1px;
+    text-align: justify;
+    width: 60%;
+}
+.box8 {
+    background-color: #FEFF97;
+    flex: 1;
+    height: 100%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 50%;
+	margin-left:10px
+}
+.box8 h7 {
+	margin-top: 51px;
+	height: 50px;
+	margin-left:10px;
+  	width: 30%;
+}
+.box8 p {
+    margin-top: 65px;
+    height: 16%;
+    width: 65%;
+    text-align: center;
+    color: #C151D0;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+	}
